@@ -1,0 +1,24 @@
+.cardFilme {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+  }
+  
+  .cardContainer {
+    flex: 1 1 calc(20% - 16px); /* 20% para ter 5 cards por linha */
+    max-width: calc(20% - 16px); /* Garante que o container não ultrapasse 20% */
+    box-sizing: border-box;
+    
+  }
+
+  .cardContainer .card {
+    min-height: 200px; /* Altura mínima para os cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .cardContainer .card-body {
+    flex-grow: 1; /* Permite que o conteúdo do card expanda */
+  }

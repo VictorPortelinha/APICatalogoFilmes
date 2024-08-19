@@ -1,0 +1,19 @@
+
+
+.container-form-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+
+
+.container-form-app form {
+    width: 100%;
+    max-width: 600px; 
+    padding: 10px;
+    background-color: #f8f9fa; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); 
+}
+
